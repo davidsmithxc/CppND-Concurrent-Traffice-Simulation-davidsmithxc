@@ -5,6 +5,7 @@ CMakeFiles/traffic_simulation.dir/src/Graphics.cpp.o
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Graphics.cpp
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Graphics.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.h
+ /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
  /usr/local/include/opencv4/opencv2/core.hpp
  /usr/local/include/opencv4/opencv2/core/base.hpp
@@ -44,12 +45,14 @@ CMakeFiles/traffic_simulation.dir/src/Intersection.cpp.o
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.cpp
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.h
+ /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.h
 CMakeFiles/traffic_simulation.dir/src/Street.cpp.o
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.cpp
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.h
+ /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.h
 CMakeFiles/traffic_simulation.dir/src/TrafficLight.cpp.o
@@ -63,6 +66,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Graphics.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.h
+ /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficSimulator-Final.cpp
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.h
@@ -99,6 +103,7 @@ CMakeFiles/traffic_simulation.dir/src/TrafficSimulator-Final.cpp.o
 CMakeFiles/traffic_simulation.dir/src/Vehicle.cpp.o
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Intersection.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Street.h
+ /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficLight.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/TrafficObject.h
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.cpp
  /home/david/Projects/Udacity-ND-CPP/CppND-Program-a-Concurrent-Traffic-Simulation/src/Vehicle.h
