@@ -34,6 +34,10 @@ void MessageQueue<T>::send(T &&msg)
     std::lock_guard<std::mutex> myLock(_mutex);
 
     // flush queue of old messages
+    // This is a work around for this project. If the queue isn't flushed, when cars arrive the first message
+    // in the deque can often be "stale." A better implementation would be to expose a "flush" method in the api
+    // and allow the client to specify if it should be used. I would probably implement a "flush" in the function
+    // TrafficLight::waitForGreen().
     _queue.clear();
 
     // add item to queue
@@ -96,12 +100,8 @@ void TrafficLight::cycleThroughPhases()
 
             if(_currentPhase == TrafficLightPhase::green){
                 _currentPhase = TrafficLightPhase::red;
-                // TrafficLightPhase phase = TrafficLightPhase::red;
-                // _queue.send(std::move(phase));
             } else {
                 _currentPhase = TrafficLightPhase::green;
-                // TrafficLightPhase phase = TrafficLightPhase::green;
-                // _queue.send(std::move(phase));
             }
             // TODO: add update method using message queue
             TrafficLightPhase phase = _currentPhase;
